@@ -1,5 +1,5 @@
 .cabecalho{
-    background-color: var(--cor-do-cabecalho);
+    background-color: var(--cor-cabecalho);
     padding: 1em;
     }
     .container{
@@ -23,3 +23,10 @@
     display: block;
         }
     }
+@media screen and (min-width: 1024px) {
+    .container_frase{
+        padding-left: 5em;
+     font-size: 20px;  
+     display: block;
+    }
+}
